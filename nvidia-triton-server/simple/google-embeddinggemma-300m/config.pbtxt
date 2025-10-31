@@ -1,0 +1,41 @@
+name: "embeddinggemma-300m"
+backend: "python"
+max_batch_size: 64
+
+# Allow a single request to include multiple strings (OpenAI-style list input).
+input [
+  {
+    name: "TEXT"
+    data_type: TYPE_STRING
+    dims: [ -1 ]        # variable-length 1D array of strings per request
+  },
+  {
+    name: "MODE"
+    data_type: TYPE_STRING
+    dims: [ 1 ]
+    optional: true      # your code defaults to "document" when absent
+  }
+]
+
+# One embedding per input string -> [N, 768]
+output [
+  {
+    name: "EMBEDDINGS"
+    data_type: TYPE_FP32
+    dims: [ -1, 768 ]   # first dim matches number of input strings
+  }
+]
+
+# Let Triton pick GPU if available, CPU otherwise (matches your model.py behavior).
+instance_group [
+  { kind: KIND_AUTO, count: 1 }
+]
+
+# Throughput-friendly batching; tweak as you like.
+dynamic_batching {
+  preferred_batch_size: [ 2 ]
+  max_queue_delay_microseconds: 1000
+}
+
+# Python backend defaults to model.py; set this only if you rename it.
+# parameters: { key: "PYTHON_EXECUTION_ENV" value: { string_value: "..." } }
