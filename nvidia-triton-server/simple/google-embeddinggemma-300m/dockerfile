@@ -1,0 +1,21 @@
+FROM nvcr.io/nvidia/tritonserver:25.05-py3
+
+# GPU PyTorch (CUDA 12.1 wheel bundles its own CUDA, works fine in this image)
+# 1) PyTorch nightly with CUDA 12.4 (>= 2.6)
+RUN python3.12 -m pip install --no-cache-dir \
+    --index-url https://download.pytorch.org/whl/nightly/cu124 \
+    torch --pre
+
+RUN python3.12 -m pip install --no-cache-dir \
+    "transformers>=4.46.1" \
+    "safetensors>=0.4.5" \
+    numpy \
+    "protobuf>=3.20.3,<5.0" \
+    "sentencepiece>=0.1.99"
+
+
+# 2) Transformers that supports gemma3_text + friends
+#RUN python3.12 -m pip install --no-cache-dir \
+#    "transformers>=4.46.1" \
+#    "safetensors>=0.4.5" \
+#    numpy
