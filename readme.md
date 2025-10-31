@@ -31,7 +31,7 @@ Google recently released EmbeddingGemma-300M (a whooping 300 million parameter m
 
 1.  **Clone the repo:**
     ```bash
-    git clone [https://github.com/](https://github.com/)[sjmach]/[artificial-intelligence].git
+    git clone https://github.com/sjmach/artificial-intelligence.git
     ```
 2.  **Navigate to a project:**
     Each project is self-contained in its own directory.
