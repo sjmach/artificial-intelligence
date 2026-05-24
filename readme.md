@@ -37,6 +37,17 @@ Google recently released EmbeddingGemma-300M (a whooping 300 million parameter m
 
 ---
 
+### 3. How to Enable NVIDIA GPU Workloads on k3s
+
+![How to Enable NVIDIA GPU Workloads on k3s](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQ3NwRF9ppC_KCdwXK04x2qm585BRYBmqWa_7711c38EeO4KsyxnSW9UpKppkYmtxcyKF-lqRvVcjYFfiHH7jQEOEOoq3O6XSFYdTTT3JadR18OaUENkD5DDG_vZKEiwUZWQ_QpxTA0_JnlUh7wS2NL5m-W-pj5uYtjazQ6pJPvLht3y2Tb332G0YQGRE/w320-h169/k3s-enable-nvidia-gpu.png)
+
+* **Article:** 🔗 [Read the full article on my Blog](https://www.sundeepmachado.com/2025/12/how-to-enable-nvidia-gpu-workloads-on.html)
+* **Description:** By default, k3s nodes don't support GPUs. This tutorial walks through installing the NVIDIA driver and container toolkit, configuring k3s to use the NVIDIA container runtime, deploying the NVIDIA GPU Operator via Helm, and verifying GPU access with a test CUDA pod.
+
+* **Code:** 📂 [Find the code in the `/k3s/simple/enable-nvidia-gpu-workloads` directory](./k3s/simple/enable-nvidia-gpu-workloads)
+
+---
+
 ### More to come
 
 
