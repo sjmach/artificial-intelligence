@@ -1,0 +1,7 @@
+FROM llama3.2:3b
+
+# RESOURCE STABILITY TWEAKS
+PARAMETER num_thread 3
+PARAMETER num_batch 128
+PARAMETER num_ctx 4096
+PARAMETER num_predict 80

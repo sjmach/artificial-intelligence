@@ -24,6 +24,15 @@ Google recently released EmbeddingGemma-300M (a whooping 300 million parameter m
 
 ---
 
+### 2. How to Reduce CPU Spikes for AI Summarisation with Ollama
+
+* **Article:** 🔗 [Read the full article on my Blog](https://www.sundeepmachado.com/2026/05/how-to-reduce-cpu-spikes-for-ai.html)
+* **Description:** Long-form document summarisation with Ollama can cause sustained 100% CPU utilisation due to a prefill phase bottleneck. This article walks through the tuning parameters and Docker configuration that smooth out those spikes and keep the model responsive on CPU-only hardware.
+
+* **Code:** 📂 [Find the code in the `/ollama/advance` directory](./ollama/advance)
+
+---
+
 ### More to come
 
 
