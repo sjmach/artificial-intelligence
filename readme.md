@@ -16,6 +16,8 @@ Here is a list of my work. Each project includes a link to the relevant article 
 
 ### 1. Serving an Embedding Model on NVIDIA Triton Server
 
+![Serving an Embedding Model on NVIDIA Triton Server](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMaO0KBOWyyYwCyPw7mye1Fy_BIdNfdw5h7vilUP5A9YZqCWc9ujWFpjTydiZVDw8Y0oBiigJAmh_H2WSL9OTP8WzHANekdEjhCOh2iuEckd1-iOYK5gc_kVHiUCrcQq3BA6egMaBx_uGW8doGRi23EGv897Bkh4gyM7FwuAiI-swP1JJAq7202_1B174/w320-h169/embedding-gemma-300m-nvidia-triton.jpg)
+
 * **Article:** 🔗 [Read the full article on my Blog](https://www.sundeepmachado.com/2025/10/how-to-deploy-googles-latest-embedding.html)
 * **Description:** An embedding model is needed to generate embeddings (vector representations that help an LLM to understand things like text, images etc). 
 Google recently released EmbeddingGemma-300M (a whooping 300 million parameter model) which has very low requirements to run. We test this assumption in this article.
@@ -25,6 +27,8 @@ Google recently released EmbeddingGemma-300M (a whooping 300 million parameter m
 ---
 
 ### 2. How to Reduce CPU Spikes for AI Summarisation with Ollama
+
+![How to Reduce CPU Spikes for AI Summarisation with Ollama](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHOzjEhiR1gCyNzpmzteLdLzliSK75czYDwxe5B0p2I3XUnnMNox-17WQt24A-H9_n1okRGv3ACZmGcKGWKgjmWmIYXeIGFaS6rxJl1uSHcOOGAjd6ZHFLZxrA4F0R2QKzVsJOSuLAlqX7zbS3-zLR6mDPCTeduhHkoofjJC5l0mBXMS-YS5Aknby2MLA/w674-h358/reduce-cpu-spikes-ai-summarisation.png)
 
 * **Article:** 🔗 [Read the full article on my Blog](https://www.sundeepmachado.com/2026/05/how-to-reduce-cpu-spikes-for-ai.html)
 * **Description:** Long-form document summarisation with Ollama can cause sustained 100% CPU utilisation due to a prefill phase bottleneck. This article walks through the tuning parameters and Docker configuration that smooth out those spikes and keep the model responsive on CPU-only hardware.
