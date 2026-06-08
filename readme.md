@@ -48,6 +48,19 @@ Google recently released EmbeddingGemma-300M (a whooping 300 million parameter m
 
 ---
 
+### 4. Adding a Custom Guardrail (GLiGuard) to a LiteLLM AI Gateway
+
+![Adding a Custom Guardrail (GLiGuard) to a LiteLLM AI Gateway](./concepts/simple/guardrail/adding-gliguard-litellm-ai-gateway/gliguard-guardrail-litellm.png)
+
+* **Article:** 🔗 [Read the full article on my Blog](https://www.sundeepmachado.com/2026/06/custom-guardrail-gliguard-litellm-proxy.html)
+* **Description:** Guardrails for a Large language model (LLM) are rule based safety controls that validate the input and output of a model. They basically act like a gatekeeper between a user and a Large language model.
+
+GLiGuard is an open-source, ultra-fast and very light weight AI guardrail that has only 300 million parameters. It is available on HuggingFace and can be easily integrated on any AI Gateway like LiteLLM.
+
+* **Code:** 📂 [Find the code in the `/concepts/simple/guardrail/adding-gliguard-litellm-ai-gateway` directory](./concepts/simple/guardrail/adding-gliguard-litellm-ai-gateway)
+
+---
+
 ### More to come
 
 
