@@ -16,7 +16,7 @@ Here is a list of my work. Each project includes a link to the relevant article 
 
 ### 1. Serving an Embedding Model on NVIDIA Triton Server
 
-![Serving an Embedding Model on NVIDIA Triton Server](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMaO0KBOWyyYwCyPw7mye1Fy_BIdNfdw5h7vilUP5A9YZqCWc9ujWFpjTydiZVDw8Y0oBiigJAmh_H2WSL9OTP8WzHANekdEjhCOh2iuEckd1-iOYK5gc_kVHiUCrcQq3BA6egMaBx_uGW8doGRi23EGv897Bkh4gyM7FwuAiI-swP1JJAq7202_1B174/w320-h169/embedding-gemma-300m-nvidia-triton.jpg)
+![Serving an Embedding Model on NVIDIA Triton Server](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMaO0KBOWyyYwCyPw7mye1Fy_BIdNfdw5h7vilUP5A9YZqCWc9ujWFpjTydiZVDw8Y0oBiigJAmh_H2WSL9OTP8WzHANekdEjhCOh2iuEckd1-iOYK5gc_kVHiUCrcQq3BA6egMaBx_uGW8doGRi23EGv897Bkh4gyM7FwuAiI-swP1JJAq7202_1B174/w640-h360/embedding-gemma-300m-nvidia-triton.jpg "Serving an Embedding Model on NVIDIA Triton Server")
 
 * **Article:** 🔗 [Read the full article on my Blog](https://www.sundeepmachado.com/2025/10/how-to-deploy-googles-latest-embedding.html)
 * **Description:** An embedding model is needed to generate embeddings (vector representations that help an LLM to understand things like text, images etc). 
@@ -28,7 +28,7 @@ Google recently released EmbeddingGemma-300M (a whooping 300 million parameter m
 
 ### 2. How to Reduce CPU Spikes for AI Summarisation with Ollama
 
-![How to Reduce CPU Spikes for AI Summarisation with Ollama](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHOzjEhiR1gCyNzpmzteLdLzliSK75czYDwxe5B0p2I3XUnnMNox-17WQt24A-H9_n1okRGv3ACZmGcKGWKgjmWmIYXeIGFaS6rxJl1uSHcOOGAjd6ZHFLZxrA4F0R2QKzVsJOSuLAlqX7zbS3-zLR6mDPCTeduhHkoofjJC5l0mBXMS-YS5Aknby2MLA/w674-h358/reduce-cpu-spikes-ai-summarisation.png)
+![How to Reduce CPU Spikes for AI Summarisation with Ollama](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHOzjEhiR1gCyNzpmzteLdLzliSK75czYDwxe5B0p2I3XUnnMNox-17WQt24A-H9_n1okRGv3ACZmGcKGWKgjmWmIYXeIGFaS6rxJl1uSHcOOGAjd6ZHFLZxrA4F0R2QKzVsJOSuLAlqX7zbS3-zLR6mDPCTeduhHkoofjJC5l0mBXMS-YS5Aknby2MLA/w640-h360/reduce-cpu-spikes-ai-summarisation.png "How to Reduce CPU Spikes for AI Summarisation with Ollama")
 
 * **Article:** 🔗 [Read the full article on my Blog](https://www.sundeepmachado.com/2026/05/how-to-reduce-cpu-spikes-for-ai.html)
 * **Description:** Long-form document summarisation with Ollama can cause sustained 100% CPU utilisation due to a prefill phase bottleneck. This article walks through the tuning parameters and Docker configuration that smooth out those spikes and keep the model responsive on CPU-only hardware.
@@ -39,7 +39,7 @@ Google recently released EmbeddingGemma-300M (a whooping 300 million parameter m
 
 ### 3. How to Enable NVIDIA GPU Workloads on k3s
 
-![How to Enable NVIDIA GPU Workloads on k3s](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQ3NwRF9ppC_KCdwXK04x2qm585BRYBmqWa_7711c38EeO4KsyxnSW9UpKppkYmtxcyKF-lqRvVcjYFfiHH7jQEOEOoq3O6XSFYdTTT3JadR18OaUENkD5DDG_vZKEiwUZWQ_QpxTA0_JnlUh7wS2NL5m-W-pj5uYtjazQ6pJPvLht3y2Tb332G0YQGRE/w320-h169/k3s-enable-nvidia-gpu.png)
+![How to Enable NVIDIA GPU Workloads on k3s](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQ3NwRF9ppC_KCdwXK04x2qm585BRYBmqWa_7711c38EeO4KsyxnSW9UpKppkYmtxcyKF-lqRvVcjYFfiHH7jQEOEOoq3O6XSFYdTTT3JadR18OaUENkD5DDG_vZKEiwUZWQ_QpxTA0_JnlUh7wS2NL5m-W-pj5uYtjazQ6pJPvLht3y2Tb332G0YQGRE/w640-h360/k3s-enable-nvidia-gpu.png "How to Enable NVIDIA GPU Workloads on k3s")
 
 * **Article:** 🔗 [Read the full article on my Blog](https://www.sundeepmachado.com/2025/12/how-to-enable-nvidia-gpu-workloads-on.html)
 * **Description:** By default, k3s nodes don't support GPUs. This tutorial walks through installing the NVIDIA driver and container toolkit, configuring k3s to use the NVIDIA container runtime, deploying the NVIDIA GPU Operator via Helm, and verifying GPU access with a test CUDA pod.
@@ -50,7 +50,7 @@ Google recently released EmbeddingGemma-300M (a whooping 300 million parameter m
 
 ### 4. Adding a Custom Guardrail (GLiGuard) to a LiteLLM AI Gateway
 
-![Adding a Custom Guardrail (GLiGuard) to a LiteLLM AI Gateway](./concepts/simple/guardrail/adding-gliguard-litellm-ai-gateway/gliguard-guardrail-litellm.png)
+![Adding a Custom Guardrail (GLiGuard) to a LiteLLM AI Gateway](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitSs0f3M_8F1rU8YQ_xQmNE7l3KgG0K9qYUJxkTkHqanl6HMqyLqnxNBrqFCsYDnTHQxihtSHTm2Li3IOEk-GM93kHy-mPODAoKJD1Kjg_3nawPaCqEUOiVxsP3vyVPY_fbKa-ummpr_uosSvLo1fH3B56ZdXGLzyIVeBtRQ4PLddFONYHoKYqBrWdaWs/w640-h360/gliguard-guardrail-litellm.png "Adding a Custom Guardrail (GLiGuard) to a LiteLLM AI Gateway")
 
 * **Article:** 🔗 [Read the full article on my Blog](https://www.sundeepmachado.com/2026/06/custom-guardrail-gliguard-litellm-proxy.html)
 * **Description:** Guardrails for a Large language model (LLM) are rule based safety controls that validate the input and output of a model. They basically act like a gatekeeper between a user and a Large language model.
