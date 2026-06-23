@@ -61,6 +61,17 @@ GLiGuard is an open-source, ultra-fast and very light weight AI guardrail that h
 
 ---
 
+### 5. Getting Started with Nvidia Garak
+
+![Getting Started with Nvidia Garak](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUiGhmaBmP8oYdbU0jHlk7mEiSf5lEHKo4sXi_srkzSlrhYbjlelAcroYJmlH_4lDaOqczAh2vycVxPkV1npf1ZQafU14XFUKqO8iPsuUT1VqYV9PeFnyCmtChmekrzdF0txBWTZ0V7G-xZVGALuqtFqVI-eR7qVHNt7s5CumIk_Ms7YV6n7bvvBEoPZQ/w640-h362/getting_started_nvidia_garak.png "Getting Started with Nvidia Garak")
+
+* **Article:** 🔗 [Read the full article on my Blog](https://www.sundeepmachado.com/2026/06/getting-started-with-nvidia-garak.html)
+* **Description:** Nvidia Garak is an open-source LLM vulnerability scanner from NVIDIA's AI Red Team. It probes models for prompt injection, jailbreaks, training data exposure, toxicity, hallucinations, encoding-based filter evasion, and malware generation. This article walks through installing Garak and running it against a local Ollama model, including how to read the Defense Capability (DC) scoring used to judge results.
+
+* **Code:** 📂 [Find the code in the `/garak/simple/getting-started-with-nvidia-garak` directory](./garak/simple/getting-started-with-nvidia-garak)
+
+---
+
 ### More to come
 
 
